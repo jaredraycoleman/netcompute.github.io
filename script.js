@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (button.textContent.includes('Submit')) {
             button.addEventListener('click', (e) => {
                 e.preventDefault();
-                alert('Submission portal will be available soon. Please check back later or contact organizers@netcompute2026.org for updates.');
+                alert('Submission portal will be available soon. Please check back later or contact organizers@netcompute.org for updates.');
             });
         }
     });

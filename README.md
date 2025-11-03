@@ -131,7 +131,7 @@ Edit CSS variables in `styles.css` (lines 1-15):
 ## Contact
 
 For questions about the workshop or website:
-- Email: organizers@netcompute2026.org
+- Email: organizers@netcompute.org
 - Conference: [IEEE INFOCOM 2026](https://infocom2026.ieee-infocom.org/)
 
 ## License
