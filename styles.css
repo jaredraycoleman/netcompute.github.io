@@ -343,7 +343,7 @@ body {
     background-color: var(--white);
     border-radius: 0.75rem;
     box-shadow: var(--shadow);
-    overflow: hidden;
+    padding: 1.5rem;
     transition: all 0.3s ease;
 }
 
@@ -352,51 +352,14 @@ body {
     transform: translateY(-4px);
 }
 
-.topic-header {
-    padding: 1.5rem;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--white);
-    border-bottom: 2px solid var(--gray-100);
-    transition: background-color 0.3s ease;
-}
-
-.topic-header:hover {
-    background-color: var(--gray-50);
-}
-
-.topic-header h3 {
+.topic-card h3 {
     font-size: 1.1rem;
     font-weight: 600;
-    color: var(--gray-900);
-    margin: 0;
-}
-
-.toggle-icon {
-    font-size: 1.5rem;
     color: var(--primary-blue);
-    font-weight: 300;
-    transition: transform 0.3s ease;
+    margin: 0 0 0.75rem 0;
 }
 
-.topic-card.active .toggle-icon {
-    transform: rotate(45deg);
-}
-
-.topic-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-}
-
-.topic-card.active .topic-content {
-    max-height: 500px;
-}
-
-.topic-content p {
-    padding: 1.5rem;
+.topic-card p {
     margin: 0;
     color: var(--gray-700);
     line-height: 1.7;

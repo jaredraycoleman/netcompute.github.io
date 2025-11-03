@@ -53,21 +53,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Topic card toggle functionality
-function toggleTopic(header) {
-    const card = header.parentElement;
-    const allCards = document.querySelectorAll('.topic-card');
-
-    // Close all other cards
-    allCards.forEach(c => {
-        if (c !== card && c.classList.contains('active')) {
-            c.classList.remove('active');
-        }
-    });
-
-    // Toggle current card
-    card.classList.toggle('active');
-}
+// Topic cards are always expanded (no toggle needed)
 
 // Intersection Observer for scroll animations
 const observerOptions = {
