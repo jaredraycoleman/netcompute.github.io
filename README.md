@@ -1,148 +1,64 @@
-# NetCompute 2026 Website
+# NetCompute 2026
 
-Official website for the First Workshop on Computation over Heterogeneous Networks at IEEE INFOCOM 2026.
+**First Workshop on Computation over Heterogeneous Networks**
 
-## Overview
+NetCompute 2026 explores the intersection of computation and communication networks, where the structure and dynamics of networks fundamentally shape how we process, learn, and make decisions from data.
 
-NetCompute 2026 explores the intersection of computation and communication networks, bringing together researchers and practitioners to address challenges in distributed intelligence, edge computing, and networked systems.
+## Workshop Details
 
-**Workshop Details:**
 - **Date:** May 18, 2026
 - **Location:** Tokyo, Japan
-- **Conference:** IEEE INFOCOM 2026
+- **Conference:** In conjunction with IEEE INFOCOM 2026
+- **Website:** [netcompute.org](https://netcompute.org)
 
-## Website Features
+## About
 
-- **Modern, Responsive Design:** Fully responsive layout that works on desktop, tablet, and mobile devices
-- **Clean Academic Aesthetic:** Professional blue-gray-white color palette inspired by IEEE conference pages
-- **Interactive Elements:**
-  - Sticky navigation with smooth scrolling
-  - Collapsible topic cards in the Call for Papers section
-  - Animated scroll effects
-  - Mobile-friendly hamburger menu
-- **Comprehensive Sections:**
-  - Workshop scope and mission
-  - 13 research topic areas
-  - Organizer profiles
-  - Important dates timeline
-  - Tentative schedule
-  - Venue information
-  - Contact details
+As computing moves beyond centralized data centers to edge devices, IoT sensors, satellites, and mobile platforms, the network itself becomes a critical constraint and enabler for distributed intelligence. This workshop brings together researchers and practitioners to address the unique challenges of computation over heterogeneous networks, including:
 
-## Local Development
+- **Communication-constrained computation:** Optimizing algorithms when bandwidth, latency, and reliability vary across network segments
+- **Network heterogeneity:** Managing diverse device capabilities, topologies, and communication protocols
+- **Distributed intelligence:** Enabling learning, inference, and optimization across networked systems
+- **Real-world deployments:** Bridging theory and practice in edge AI, federated learning, and networked control
 
-To view the website locally:
+## Topics of Interest
 
-1. Clone this repository
-2. Open `index.html` in your web browser
-3. Or use a local web server:
-   ```bash
-   # Using Python
-   python -m http.server 8000
+We invite original research contributions, position papers, and work-in-progress reports addressing computation over heterogeneous networks, including but not limited to:
 
-   # Using Node.js http-server
-   npx http-server
-   ```
+- In-Network Compute
+- Topology-Aware Scheduling
+- Communication-Aware Learning
+- Federated and Split Learning
+- Edge Intelligence & Inference
+- Satellite & Space Networks
+- IoT & Sensor Networks
+- Network-Aware Optimization
+- Mobile & Vehicular Computing
+- Wireless Networks & Computation
+- Privacy & Security
+- Benchmarks & Testbeds
+- Applications & Case Studies
 
-## Deployment to GitHub Pages
+## Important Dates
 
-This website is ready for GitHub Pages deployment:
+- **Paper Submission Deadline:** December 29, 2025
+- **Notification of Acceptance:** February 2, 2026
+- **Camera-Ready Deadline:** February 16, 2026
+- **Workshop Date:** May 18, 2026
 
-1. Ensure your repository is named `[username].github.io` or has a `gh-pages` branch
-2. Push all files to your repository
-3. Go to repository Settings → Pages
-4. Select the branch to deploy (usually `main` or `gh-pages`)
-5. Your site will be available at `https://[username].github.io/`
+*All deadlines are 11:59 PM AoE (Anywhere on Earth)*
 
-## File Structure
+## Organizers
 
-```
-netcompute.github.io/
-├── index.html          # Main HTML structure
-├── styles.css          # All styling and responsive design
-├── script.js           # Interactive functionality
-├── favicon.svg         # Website icon (network + compute symbol)
-└── README.md           # This file
-```
-
-## Customization Guide
-
-### Updating Organizer Information
-
-Edit the organizers section in `index.html` (around line 290). Replace placeholder images and add real contact links:
-
-```html
-<div class="organizer-photo">
-    <img src="path/to/photo.jpg" alt="Name">
-</div>
-```
-
-### Adding Submission Portal Link
-
-Replace the placeholder `#` in the "Submit Paper" buttons with your actual submission portal URL:
-
-```html
-<a href="YOUR_SUBMISSION_PORTAL_URL" class="btn btn-secondary">Submit Paper</a>
-```
-
-### Modifying Important Dates
-
-Edit the dates section in `index.html` (around line 460) to update deadlines.
-
-### Updating Schedule
-
-Modify the schedule section in `index.html` (around line 580) as your program takes shape.
-
-### Changing Colors
-
-Edit CSS variables in `styles.css` (lines 1-15):
-
-```css
-:root {
-    --primary-blue: #2563eb;
-    --dark-blue: #1e40af;
-    /* ... other colors */
-}
-```
-
-## Browser Support
-
-- Chrome/Edge (latest)
-- Firefox (latest)
-- Safari (latest)
-- Mobile browsers (iOS Safari, Chrome Mobile)
-
-## Performance Features
-
-- Optimized CSS with minimal dependencies
-- Lazy-loading animations via Intersection Observer
-- Smooth scrolling without external libraries
-- Fast load times with vanilla JavaScript
-- Responsive images and SVG favicon
-
-## Accessibility
-
-- Semantic HTML5 structure
-- ARIA labels for interactive elements
-- Keyboard navigation support
-- Color contrast compliance
-- Mobile-friendly touch targets
+- **Bhaskar Krishnamachari** - University of Southern California
+- **Jared Coleman** - Loyola Marymount University
+- **Carlee Joe-Wong** - Carnegie Mellon University
 
 ## Contact
 
-For questions about the workshop or website:
+For questions about submissions, workshop content, or general inquiries:
 - Email: organizers@netcompute.org
-- Conference: [IEEE INFOCOM 2026](https://infocom2026.ieee-infocom.org/)
+- Conference Website: [IEEE INFOCOM 2026](https://infocom2026.ieee-infocom.org/)
 
-## License
+---
 
 © 2026 NetCompute Workshop. All rights reserved.
-
-## Acknowledgments
-
-Created for the IEEE INFOCOM 2026 Workshop on Computation over Heterogeneous Networks.
-
-**Organizers:**
-- Bhaskar Krishnamachari (USC)
-- Jared Coleman (Loyola Marymount University)
-- Carlee Joe-Wong (Carnegie Mellon University)
